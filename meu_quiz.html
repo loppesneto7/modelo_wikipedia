@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<head>
+    <title>Meu quiz</title>
+    <link rel="stylesheet" type="text/css" href="Site_wikipedia.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script> 
+      var mensage;
+  
+      function load(){
+        mensage=prompt("ATENÇÃO: Antes de prosseguir insira seu nome para registro, certifique-se de ter preenchido todas as perguntas antes de enviar. Dica: Leia todo conteúdo abordado na página inicial. Boa sorte!!!");
+      }
+      function touch(){
+        alert(mensage + ", Obrigado por responder o Quiz! Sylvia Dá uma nota boa ao josé! Valeu! ;) ");
+      }
+      </script> 
+
+<div class="menu3">
+  <a href="Site_wikipedia.html">Início</a>
+  <a href="pagina_2.html">Login</a>
+
+    </div>
+    
+</head>
+
+<header>
+  <body onload='load()'></body>
+  <div class="fundao3"  width="600px" > 
+  
+    
+    <div class="center2">
+    <div class="meu_quiz"> <img src="logo_quiz.png" width="190px" ></a></div>
+    </div>
+</header>
+
+<div class="inputBox">
+      <form action="">
+        <fieldset>
+            <legend><b>Quiz de Conhecimentos Globais</b></legend>
+            <br>
+       
+         
+            <label for="p1">1. Qual formato geométrico é mas aproximado referente ao globo terra? </label>
+            <input type="text" name="p1" id="p1" class="inputUser" required>
+          
+<br><br>
+
+
+          <label for="p2">2. Tomando referência geográfica o brasil qual país fica no lado oposto do globo terra? </label>
+          <br>
+          <br>
+          <input type="radio" name="text1" value="Japão"> Japão 
+          
+          <input type="radio" name="text1" value="China"> China 
+         
+          <input type="radio" name="text1" value="Alemanha"> Alemanha 
+      
+          <input type="radio" name="text1" value="França"> França 
+          
+        
+<br><br>
+        
+            <label for="p3">3. Complete com a informação correta: "A maior parte dos globos terrestres modernos incluem também paralelos e ? </label>
+            <input type="text" name="p3" id="p3" class="inputUser" required>
+         
+<br><br>
+         
+            <label for="p4">4.Martin Behaim, um polímata que sabia muito de quais disciplinas? "Escolha Duas pelo menos duas" ...Foi o criador do globo terrestre Erdapfel.  </label>
+            <br> <br>
+            <input type="checkbox" name="p4" id="p4" class="inputUser" required>
+            <label for="p4">Português</label>
+            <br> <br>
+            <input type="checkbox" name="p4" id="p4" class="inputUser" required>
+            <label for="p4">Matemática</label>
+            <br> <br>
+            <input type="checkbox" name="p4" id="p4" class="inputUser" required>
+            <label for="p4">Geografia</label>
+            <br> <br>
+            <input type="checkbox" name="p4" id="p4" class="inputUser" required>
+            <label for="p4">História</label>
+            <br> <br>
+            <input type="checkbox" name="p4" id="p4" class="inputUser" required>
+            <label for="p4">Filosofia</label>
+<br><br>
+          
+            <label for="p5">5.O "maçã da terra" evidencia como o mundo era compreendido no final de qual século? </label>
+<br><br>          
+
+            <label for="seculo">Século:</label>
+            <select name="seculo" id="seculo">
+                <option value="">---Escolha ---</option>
+                <option value="XVIII">XVIII</option>
+                <option value="XV">XV</option>
+                <option value="X">X</option>
+                <option value="XX">XX</option>
+              </select>
+         
+<br><br>
+         
+            <label for="p6">6.Quem fez inúmeras viagens pelo mundo para poder realizar o seu projeto: o Erdapfel. </label>
+<br><br>
+            <label for="quem">Quem?:</label>
+            <select name="quem" id="quem">
+                <option value="">---Escolha ---</option>
+                <option value="Cathein">Cathein</option>
+                <option value="Nuremberg">Nuremberg</option>
+                <option value="Adolf Hitler">Adolf Hitler</option>
+                <option value="Behaim">Behaim</option>
+            </select>
+           
+          
+<br><br>
+         
+            <label for="p7">7.Quem pintou o Erdapfel? </label>
+            <input type="text" name="p7" id="p7" class="inputUser" required>
+           
+<br><br>
+        
+            <label for="p8">8. Depois de pronto onde foi exposto o Erdapfe? </label>
+            <input type="text" name="p8" id="p8" class="inputUser" required>
+         
+          
+<br><br>
+          
+            <label for="p9">9.No início do século XX a família Behain emprestou o Erdapfel a qual Museu? </label>
+            <input type="text" name="p9" id="p9" class="inputUser" required>
+          
+         
+<br><br>
+          
+            <label for="p10">10.Com quantos anos antes da Segunda Guerra Mundial foi comprado o Erdapfel, a pedido de Adolf Hitler, que que considerava um artefato importante e não se deveria correr o risco de o globo atravessar as fronteiras. </label>
+            
+<br><br>          
+            <input type="radio"  name="text" value="4"> 4 Anos 
+            <input type="radio"  name="text" value="3"> 3 Anos 
+            <input type="radio"  name="text" value="2"> 2 Anos 
+            <input type="radio"  name="text" value="5"> 5 Anos 
+         
+<br><br>  
+
+<input type="button" value="Enviar" onclick='touch()'/>
+<input type="reset" value="Limpar">
+
+         </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

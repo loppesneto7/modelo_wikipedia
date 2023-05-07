@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <title>Meu quiz</title>
+    <link rel="stylesheet" type="text/css" href="Site_wikipedia.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+      function logar(){
+  
+        var login = document.getElementById('login').value;
+        var senha = document.getElementById('senha').value;
+        var idade = document.getElementById('idade').value;
+  
+        if(login == "admin" && senha == "admin" && idade > 17) {
+            alert('Login realizado com Sucesso! ---->Seja bem Vindo!');
+            location.href = "meu_quiz.html";
+        }else{
+            alert('Login ou senha incorretos. Atenção: Para primeiro acesso utilizar login/senha(admin) OBS: Acesso permitido só para usuários maiores de 18 anos.');
+        }
+      } 
+      </script> 
+
+<div class="menu2">
+  <a href="Site_wikipedia.html">Início</a>
+  <a href="meu_quiz.html">Responda o Quiz</a>
+  
+    </div>
+</head>
+
+  <div class="fundao2">
+    
+  <header>
+    
+    
+<div class="inputBox2">    
+
+<br><br>    
+<body>    
+       <form>
+          <h3>Faça seu Login</h3>
+          <br><br>  
+          <input type="text" placeholder="login" id="login">
+          <br><br>  
+          <input type="password" placeholder="senha" id="senha">
+          <br><br>
+          <input type="text" placeholder="idade" id="idade">
+          <br><br>  
+          <input type="submit" onclick="logar(); return false">
+          <input type="reset" value="Limpar">
+            </header>
+        
+      </form>
+    </div>
+  </div>
+</body>
+</html>
